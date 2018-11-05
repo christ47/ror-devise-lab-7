@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>List:</strong>
+  <%= @author.list %>
+</p>
+
+<p>
+  <strong>Show:</strong>
+  <%= @author.show %>
+</p>
+
+<p>
+  <strong>Edit:</strong>
+  <%= @author.edit %>
+</p>
+
+<p>
+  <strong>New:</strong>
+  <%= @author.new %>
+</p>
+
+<%= link_to 'Edit', edit_author_path(@author) %> |
+<%= link_to 'Back', authors_path %>
