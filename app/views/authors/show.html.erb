@@ -1,24 +1,21 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>List:</strong>
-  <%= @author.list %>
+  <strong>First Name:</strong>
+  <%= @author.firstName %>
 </p>
 
 <p>
-  <strong>Show:</strong>
-  <%= @author.show %>
+  <strong>Last Name:</strong>
+  <%= @author.lastName %>
 </p>
 
 <p>
-  <strong>Edit:</strong>
-  <%= @author.edit %>
+  <strong>User ID:</strong>
+  <%= @author.user_id %>
 </p>
 
-<p>
-  <strong>New:</strong>
-  <%= @author.new %>
-</p>
+
 
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>

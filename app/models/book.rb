@@ -1,4 +1,3 @@
 class Book < ApplicationRecord
-  belongs_to :author, required: false
-
+  belongs_to :author
 end

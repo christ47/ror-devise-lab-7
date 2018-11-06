@@ -16,10 +16,10 @@
   <tbody>
     <% @authors.each do |author| %>
       <tr>
-        <td><%= author.list %></td>
-        <td><%= author.show %></td>
-        <td><%= author.edit %></td>
-        <td><%= author.new %></td>
+        <td><%= author.firstName %></td>
+        <td><%= author.lastName %></td>
+
+
         <td><%= link_to 'Show', author %></td>
         <td><%= link_to 'Edit', edit_author_path(author) %></td>
         <td><%= link_to 'Destroy', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
